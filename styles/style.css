@@ -20,6 +20,13 @@ header{
     height: 680px;
     background-color: #2D25A0;
     margin-bottom: 70px;
+    transition: 1.5s;
+}
+header:hover{
+    background-color: #fce703;
+}
+header:hover .push{
+     background-color: #3DBAFD;
 }
 header,main,footer{
     display: flex;
@@ -54,16 +61,27 @@ header,main,footer{
     background-color: #E02C6D;
     border: none;
     margin-top: 12px;
+    transition: 1.5s;
 }
+header:hover .push{
+    background-color: #2D25A0;
+
+}
+
 .left-item .text-item button a{
     text-decoration: none;
     font-family: Poppins;
     font-style: normal;
-    font-weight: 500;
+    font-weight: 700;
     font-size: 16px;
     line-height: 24px;
-    padding: 10px 24px;
+    padding: 10px 20px;
     color: #ffffff;
+    transition: 1.5s;
+
+}
+header:hover .push a{
+    color:red;
 
 }
 
