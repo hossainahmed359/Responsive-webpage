@@ -131,17 +131,18 @@ header,main,footer{
     padding-top: 10px;
 }
 
-/*------------------------
-Another Section > Banner
--------------------------*/
+/*----------------------------
+Another Section > Highlights
+----------------------------*/
 
-.banner-2{
+.highlights{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom: 158px;
 }
-.left-item .text-item h1{
+
+.left-item .highlight-text-item h1{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -151,7 +152,7 @@ Another Section > Banner
     color: #0A0826;
 
 }
-.left-item .text-item p{
+.left-item .highlight-text-item p{
     font-family: 'Poppins', sans-serif;
     color: #6C6C6C;
     font-style: normal;
@@ -163,14 +164,14 @@ Another Section > Banner
     margin-top: 8px;
 }
 
-.left-item .text-item button{
+.left-item .highlight-text-item button{
     width: 168px;
     height: 44px;
     background-color: #E02C6D;
     border: none;
     margin-top: 12px;
 }
-.left-item .text-item button a{
+.left-item .highlight-text-item button a{
     text-decoration: none;
     font-family: Poppins;
     font-style: normal;
@@ -188,6 +189,29 @@ Another Section > Banner
     left: 1299.01px;
     top: 153px;
 }
+/*----------------------
+    Partner-section 
+ ----------------------*/
+.partners{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 100px;
+}
+.partners h2{
+    font-family: 'Poppins', sans-serif;
+    color: #18191F;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 40px;
+    padding-top:10px ;
+    margin-bottom: 20px;
+}
+.partner-items{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+}
 /*----------- 
     Footer
 ----------- */
@@ -204,7 +228,7 @@ Another Section > Banner
     margin-bottom: 20px;
 }
 .icon-item a{
-    display: inline-block;
+
     text-decoration: none;
 
 }
@@ -226,4 +250,77 @@ Another Section > Banner
     line-height: 24px;
     color: #000000;
 
+}
+/*------------------ 
+    MEIDIA QUERY
+-------------------*/
+@media only screen and (max-width:688px) {
+    .container{
+        width: 100%;
+    }
+
+    /* BANNER */
+    .banner{
+        height: 695px;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .highlight-text-item{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+        margin-bottom: 30px;
+    }
+    .left-item .text-item h1{
+        font-family: 'Poppins', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 50px;
+        color: #FFFFFF;
+    }
+    .right-item .image-item img{
+        width: 329px;
+        height: 259.17px;
+    }
+    /* Players */
+    .players{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-bottom: 165px;
+     
+    }
+    /* Highlights */
+    .highlights{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 158px;
+    }
+    .left-item .highlight-text-item h1{
+        font-size: 30px;
+        line-height: 60px;
+
+        color: #0A0826;
+    }
+    
+    /* Partners */
+
+    .partner-items{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+    }
+    /* FOOTER */
+    .logo-item{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .logo-item img{
+        width: 65%;
+
+    }
 }
