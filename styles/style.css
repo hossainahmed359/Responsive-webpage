@@ -2,6 +2,8 @@
 /* Poppins */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+
 /* Roboto */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&display=swap');
 
@@ -17,6 +19,7 @@ font-family: 'Roboto', sans-serif;
 header{
     height: 680px;
     background-color: #2D25A0;
+    margin-bottom: 70px;
 }
 header,main,footer{
     display: flex;
@@ -27,15 +30,39 @@ header,main,footer{
     width: 60%;
     border: 2px solid red;
 }
-/*-----------
-    Header 
------------*/
+/*-------------------------
+    Header>Nav-bar & Banner 
+-------------------------*/
 .banner{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.image-item img{
+.left-item .text-item h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px;
+    letter-spacing: 0px;
+    text-align: left;
+    color: #ffffff;
+}
+.left-item .text-item button{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 24px;
+    color: #ffffff;
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    margin-top: 12px;
+}
+.right-item .image-item img{
     width: 556.01px;
     height: 438px;
     left: 1299.01px;
