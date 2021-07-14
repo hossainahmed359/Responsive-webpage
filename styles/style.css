@@ -40,6 +40,56 @@ header,main,footer{
 /*-------------------------
     Header>Nav-bar & Banner 
 -------------------------*/
+/*----------- 
+    Navbar
+----------- */
+.nav-bar{
+    display: flex;
+    flex-direction: row-reverse;
+    transform: translate(-50px ,0px);
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 29px;
+    margin-top: 40px;
+}
+.right-links ul li{
+    list-style: none;
+    display: inline-block;
+}
+.right-links ul li a{
+    margin-left: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+}
+
+.left-links button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    transition: 1.5s;
+}
+header:hover .left-links button{
+    background-color: #2D25A0;
+}
+
+.left-links button a{
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color:white;
+}
+/*---------- 
+    Banner
+--------- */
 .banner{
     display: flex;
     align-items: center;
@@ -277,7 +327,9 @@ Another Section > Highlights
     .container{
         width: 100%;
     }
-
+    .nav-bar{
+        display: none;
+    }
     /* BANNER */
     .banner{
         height: 695px;
