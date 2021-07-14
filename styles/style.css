@@ -20,7 +20,7 @@ header{
     height: 680px;
     background-color: #2D25A0;
     margin-bottom: 70px;
-    transition: 1.5s;
+    transition: 2s;
 }
 header:hover{
     background-color: #fce703;
@@ -72,7 +72,7 @@ header,main,footer{
     height: 44px;
     background-color: #E02C6D;
     border: none;
-    transition: 1.5s;
+    transition: 2s;
 }
 header:hover .left-links button{
     background-color: #2D25A0;
@@ -111,7 +111,7 @@ header:hover .left-links button{
     background-color: #E02C6D;
     border: none;
     margin-top: 12px;
-    transition: 1.5s;
+    transition: 2s;
 }
 header:hover .push{
     background-color: #2D25A0;
@@ -127,7 +127,7 @@ header:hover .push{
     line-height: 24px;
     padding: 10px 20px;
     color: #ffffff;
-    transition: 1.5s;
+    transition: 2s;
 
 }
 header:hover .push a{
