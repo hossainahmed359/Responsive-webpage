@@ -40,6 +40,7 @@ header,main,footer{
 /*-------------------------
     Header>Nav-bar & Banner 
 -------------------------*/
+
 /*----------- 
     Navbar
 ----------- */
@@ -258,9 +259,11 @@ Another Section > Highlights
     left: 1299.01px;
     top: 153px;
 }
+
 /*----------------------
-    Partner-section 
+    Partners-section 
  ----------------------*/
+
 .partners{
     display: flex;
     flex-direction: column;
@@ -281,9 +284,11 @@ Another Section > Highlights
     display: grid;
     grid-template-columns: repeat(10,1fr);
 }
+
 /*----------- 
     Footer
 ----------- */
+
 .footer-items{
     display: flex;
     flex-direction: column;
@@ -330,7 +335,9 @@ Another Section > Highlights
     .nav-bar{
         display: none;
     }
-    /* BANNER */
+    /*---------
+        BANNER
+    -----------*/
     .banner{
         height: 695px;
         flex-direction: column;
@@ -356,14 +363,22 @@ Another Section > Highlights
         width: 329px;
         height: 259.17px;
     }
-    /* Players */
+
+    /*----------- 
+        Players
+     ------------*/
+
     .players{
         display: grid;
         grid-template-columns: repeat(1,1fr);
         margin-bottom: 165px;
      
     }
-    /* Highlights */
+
+    /*------------------
+        Highlights 
+     -----------------*/
+
     .highlights{
         flex-direction: column;
         align-items: center;
@@ -376,13 +391,19 @@ Another Section > Highlights
         color: #0A0826;
     }
     
-    /* Partners */
+    /*-----------------
+         Partners
+    ----------------- */
 
     .partner-items{
         display: grid;
         grid-template-columns: repeat(4,1fr);
     }
-    /* FOOTER */
+
+    /*------------------ 
+         FOOTER
+    -----------------*/
+
     .logo-item{
         display: flex;
         flex-direction: column;
@@ -398,12 +419,16 @@ Another Section > Highlights
 /*--------------- 
     Tablet-mode
  ---------------*/
+
  @media only screen and (min-width:688px) and (max-width:992px){
     .container{
         width: 100%;
     }
 
-    /* BANNER */
+    /*------------- 
+        BANNER 
+    ------------*/
+
     .banner{
         height: 695px;
         align-items: center;
@@ -431,7 +456,11 @@ Another Section > Highlights
         width: 329px;
         height: 259.17px;
     }
-    /* Players */
+
+    /*------------ 
+        Players 
+    ------------*/
+
     .players{
         display: grid;
         grid-template-columns: repeat(2,1fr);
@@ -441,7 +470,11 @@ Another Section > Highlights
     .box{
         margin: 20px auto;
     }
-    /* Highlights */
+
+    /*----------------
+        Highlights 
+     ---------------*/
+
     .highlights{
         flex-direction: column;
         align-items: center;
@@ -469,13 +502,19 @@ Another Section > Highlights
     }
     
     
-    /* Partners */
+    /*-------------- 
+        Partners 
+    ----------------*/
 
     .partner-items{
         display: grid;
         grid-template-columns: repeat(5,1fr);
     }
-    /* FOOTER */
+
+    /*-------------- 
+        FOOTER 
+    ---------------*/
+
     .logo-item{
         display: flex;
         flex-direction: column;
