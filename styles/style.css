@@ -49,6 +49,14 @@ header,main,footer{
     color: #ffffff;
 }
 .left-item .text-item button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    margin-top: 12px;
+}
+.left-item .text-item button a{
+    text-decoration: none;
     font-family: Poppins;
     font-style: normal;
     font-weight: 500;
@@ -56,12 +64,9 @@ header,main,footer{
     line-height: 24px;
     padding: 10px 24px;
     color: #ffffff;
-    width: 168px;
-    height: 44px;
-    background-color: #E02C6D;
-    border: none;
-    margin-top: 12px;
+
 }
+
 .right-item .image-item img{
     width: 556.01px;
     height: 438px;
@@ -69,13 +74,15 @@ header,main,footer{
     top: 153px;
 }
 
-/*------------ 
-    Main
------------ */
+/*---------------------- 
+    Main-Players Section
+----------------------- */
 
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
+    margin-bottom: 165px;
+ 
 }
 .box{
     width: 330px;
@@ -112,7 +119,7 @@ header,main,footer{
     line-height: 40px;
     padding-top:10px ;
 }
-.player-description{
+.player-description p{
     font-family: 'Poppins', sans-serif;
     color: #6C6C6C;
     font-style: normal;
@@ -120,4 +127,61 @@ header,main,footer{
     font-size: 16px;
     line-height: 26px;
     padding-top: 10px;
+}
+
+/*------------------------
+Another Section > Banner
+-------------------------*/
+
+.banner-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-item .text-item h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    text-align: left;
+    color: #0A0826;
+
+}
+.left-item .text-item p{
+    font-family: 'Poppins', sans-serif;
+    color: #6C6C6C;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    padding-top: 10px;
+    margin-bottom: 24px;
+    margin-top: 8px;
+}
+
+.left-item .text-item button{
+    width: 168px;
+    height: 44px;
+    background-color: #E02C6D;
+    border: none;
+    margin-top: 12px;
+}
+.left-item .text-item button a{
+    text-decoration: none;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    padding: 10px 20px;
+    color: #ffffff;
+    
+}
+
+.right-item .image-item img{
+    width: 567px;
+    height: 427px;
+    left: 1299.01px;
+    top: 153px;
 }
